@@ -7,43 +7,31 @@
   color: #ffffff;
   transition: background-color 0.3s, color 0.3s;
 }
-/* 
-body.dark {
-  background-color: #fff4f4;
-  color: #eee;
-} */
+
 
 .app { 
   display:flex;
    flex-direction:column;
     min-height:100vh;
    } 
+
 header { 
   padding:16px;
    background:#f3f3f3;
-    display:flex; 
+    
     justify-content:space-between;
      align-items:center; 
     } 
-     header {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: relative;
-  padding: 20px;
-  background: linear-gradient(90deg, #374046, #495255);
-  color: white;
-}
 
 header h1 {
   font-size: 1.8rem;
   margin-right:50% ;
 }
 
-main {
+/* main {
    display:flex;
     flex:1;
-   }
+   } */
 aside { 
   width:280px;
    border-right:1px solid #ddd;
@@ -219,25 +207,9 @@ footer {
 }
 
 
-.app.dark .q-header {
-  background: #0c0c0c;
-}
-
-.app.dark .q-search-box {
-  background: #1e1e1e;
-  border-color: #333;
-}
 
 
 
-
-
-/* .surah-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
-  gap: 16px;
-  padding: 20px;
-} */
 .surah-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
@@ -296,8 +268,16 @@ main.full {
   color: #b5b5b5;
 }
 
-
 .surah-ayahs {
   font-size: 0.9rem;
   color: #ffffff;
+}
+
+.surah-view-container {
+  max-width: 700px;
+  margin: 20px auto;
+  padding: 20px;
+  background: #121210;
+  border-radius: 12px;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.1);
 }

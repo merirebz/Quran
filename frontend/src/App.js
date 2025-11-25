@@ -23,12 +23,6 @@ setCurrent(data);
 }
 
 
-// async function doSearch(e) {
-// e.preventDefault();
-// if (!query) return;
-// const r = await search(query);
-// setSearchRes(r);
-// }
 
 async function doSearch(e) {
   e.preventDefault();
@@ -66,9 +60,9 @@ return (
 
 
 <main>
-<aside>
+
 <SurahList surahs={surahs} onSelect={openSurah} />
-</aside>
+
 
 
 <section>
