@@ -41,6 +41,7 @@ async function doSearch(e) {
 return (
 <div className={`app ${darkMode ? 'dark' : ''}`}>
   <header className="q-header">
+ 
   <h1 className="q-title">Quran Reader</h1>
 
   <div className="q-search-container">
