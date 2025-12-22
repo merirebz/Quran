@@ -4,7 +4,7 @@ import "../App.css";
 export default function SurahView({ surahData }) {
   const ref = useRef(null);
 
-  // Scroll to top of SurahView when it appears
+  
   useEffect(() => {
     if (ref.current) {
       ref.current.scrollIntoView({ behavior: "smooth", block: "start" });
