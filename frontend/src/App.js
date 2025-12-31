@@ -24,14 +24,13 @@ export default function App() {
     setCurrent(data);
   }
 
-  // 🔑 Normalize text for flexible search
   const normalizeText = (text = '') =>
     text
       .toLowerCase()
       .replace(/[\u064B-\u065F]/g, '') 
       .replace(/[-\s]/g, '');          
 
-  // 🔍 SEARCH (STYLE PRESERVED)
+
   async function doSearch(e) {
     e.preventDefault();
     if (!query.trim() || !surahs?.data) return;
