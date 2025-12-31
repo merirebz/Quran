@@ -28,8 +28,8 @@ export default function App() {
   const normalizeText = (text = '') =>
     text
       .toLowerCase()
-      .replace(/[\u064B-\u065F]/g, '') // remove Arabic harakat
-      .replace(/[-\s]/g, '');          // remove spaces & dashes
+      .replace(/[\u064B-\u065F]/g, '') 
+      .replace(/[-\s]/g, '');          
 
   // 🔍 SEARCH (STYLE PRESERVED)
   async function doSearch(e) {
