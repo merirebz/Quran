@@ -3,8 +3,6 @@ import "../App.css";
 
 export default function SurahView({ surahData }) {
   const ref = useRef(null);
-
-  
   useEffect(() => {
     if (ref.current) {
       ref.current.scrollIntoView({ behavior: "smooth", block: "start" });
