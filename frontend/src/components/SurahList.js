@@ -10,7 +10,6 @@ return (
       key={s.number} 
       className="surah-card"
       onClick={() => onSelect(s.number)}
-      
     >
       <div className="surah-number">{s.number}</div>
       <div className="surah-info">
